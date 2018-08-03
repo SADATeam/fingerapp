@@ -1,5 +1,11 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" >Hello, World</Label>
+		<View id='container'>
+			<View height="Titanium.UI.SIZE" layout="vertical" top=30>
+				<ImageView id='fingerImg'></ImageView>
+				<Label id='fingerAlert'></Label>
+			</View>
+			
+		</View>
 	</Window>
 </Alloy>
